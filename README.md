@@ -5,20 +5,26 @@ This is a small project I made for a class. This uses MongoDB to create a databa
 
 ## MongoDB
 download and install MongoDB Compass
+
 run it on pc
 
 ## VS Code
 npm install
+
 node server.js
 
 ## connect code to MongoDB
 make sure url in .env file in project matches url in MongoDB compass
-then start connection
+
+connect
 
 ## Testing
 test using postman
+
 Adding products example:
+
 POST http://localhost:3333/create/customer
+
 JSON Body:
 {
     "_id": "1",
